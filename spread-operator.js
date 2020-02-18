@@ -3,3 +3,9 @@ var max= function(...numbers){
 }
 const values = [1,45,55,12,10,11];
 console.log(max(...values));
+
+const list1 = ['peter','lois'];
+const list2 = ['chris'];
+
+const list3 = [...list1, 'meg', ...list2];
+console.log(list3);

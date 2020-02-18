@@ -19,3 +19,10 @@ var declrtv = function (list) {
     .reduce(function (total, e) { return total + e })
 }
 console.log(declrtv(list))
+// concise code
+var concise = (list) => {
+  return list.filter((e) => e % 2 === 0)
+    .map((e) => e * 2)
+    .reduce((total, e) => total + e)
+}
+console.log(concise(list))

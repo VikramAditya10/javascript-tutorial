@@ -31,3 +31,13 @@ var maximum= function(){
   return greater;
 }
  console.log("using maximum function max is " + maximum(7,5,9,1,3,2));
+
+
+// Default argument values
+
+var greet = function(name,msg=`Hi ${name.length}`){
+  console.log(`${msg} ${name}`);
+}
+// if we dont pass a argument then default argument will be used
+greet('Vikram \u{1F600}');
+greet('Vikram','Hello')

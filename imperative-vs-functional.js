@@ -26,3 +26,4 @@ var concise = (list) => {
     .reduce((total, e) => total + e)
 }
 console.log(concise(list))
+console.log("\u{1F9EE}")
